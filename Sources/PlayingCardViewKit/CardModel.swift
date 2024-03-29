@@ -12,7 +12,7 @@ public protocol CardModel {
 
 public extension CardModel {
 
-    func lineWidth(for width: CGFloat) -> CGFloat {
+    func borderLineWidth(for width: CGFloat) -> CGFloat {
         width * 0.01
     }
     

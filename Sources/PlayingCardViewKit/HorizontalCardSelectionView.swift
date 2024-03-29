@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+// This isn't specific to playing cards, so could be put in some other module.
 public struct HorizontalCardSelectionView<Content: View, Item: RandomAccessCollection & MutableCollection>: View where Item.Element: Identifiable {
     
     @Binding var data: Item
